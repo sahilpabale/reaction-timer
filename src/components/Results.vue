@@ -1,7 +1,7 @@
 <template>
   <div class="score">
     {{ score }} ms <br />
-    <div class="rank">{{ rank }}</div>
+    <p class="rank">{{ rank }}</p>
   </div>
 </template>
 
@@ -35,7 +35,7 @@ export default {
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
   margin: 40px auto;
 }
 
@@ -46,7 +46,7 @@ export default {
   color: white;
   width: fit-content;
   padding: 10px;
-  margin: 20px;
+  margin: 10px auto;
   border-radius: 5px;
 }
 </style>

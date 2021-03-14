@@ -42,7 +42,7 @@ export default {
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
   margin: 40px auto;
 }
 </style>
